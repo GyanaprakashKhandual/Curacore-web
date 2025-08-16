@@ -34,7 +34,7 @@ const sendOTPEmail = async (email, otp) => {
                         linear-gradient(135deg, #f8fbff, #e0f7fa, #e8f5e9);
         ">
             
-            <h2 style="text-align: center; color: #2e7d32; margin-bottom: 10px;">Caffetest</h2>
+            <h2 style="text-align: center; color: #2e7d32; margin-bottom: 10px;">Curacore</h2>
             <p style="font-size: 16px; color: #333; text-align: center;">We’ve received your request for registration. Use the OTP below to verify your account:</p>
             
             <div style="text-align: center; margin: 30px 0;">

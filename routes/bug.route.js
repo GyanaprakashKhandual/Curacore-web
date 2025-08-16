@@ -16,7 +16,7 @@ router.route('/:projectId/add-bug')
   .get(protect, getBugs)
   .post(protect, validate(createBugValidator), createBug);
 
-router.route('/stats')
+router.route('/:projectId/stats')
   .get(protect, getBugStats);
 
 router.route('/:id')
