@@ -5,7 +5,7 @@ const {
   createProject,
   getProjects,
   getProject,
-  updateProject,
+  updateProject, 
   deleteProject
 } = require('../controllers/project.controller');
 const { createProjectValidator } = require('../middlewares/project.middleware');

@@ -12,7 +12,7 @@ const {
   getBugStats
 } = require('../controllers/bug.controller');
 
-router.route('/')
+router.route('/:projectId/add-bug')
   .get(protect, getBugs)
   .post(protect, validate(createBugValidator), createBug);
 
