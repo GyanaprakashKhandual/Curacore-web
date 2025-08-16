@@ -37,6 +37,16 @@ const bugSchema = new mongoose.Schema(
       type: String,
       enum: ['Open', 'Ongoing', 'Closed', 'Reopen'],
       default: 'Open'     // Default status
+    },
+    user: {
+      type: mongoose.Types.ObjectId,
+      ref: 'User',
+      required: true
+    },
+    project: {
+      type: mongoose.Types.ObjectId,
+      ref: 'Project',
+      required: true,
     }
   },
   {

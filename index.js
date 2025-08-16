@@ -5,9 +5,10 @@ const cors = require('cors');
 
 
 
-
 // Routes
 const authRoutes = require('./routes/user.route');
+const projectRoutes = require('./routes/project.route');
+const bugRoutes = require('./routes/bug.route');
 
 // Functions
 const connectDB = require('./config/DB');
@@ -29,6 +30,8 @@ connectDB();
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/projects', projectRoutes);
+app.use('/api/v1/bugs', bugRoutes);
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
