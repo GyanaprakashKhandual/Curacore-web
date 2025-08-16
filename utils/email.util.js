@@ -17,7 +17,7 @@ const sendOTPEmail = async (email, otp) => {
         });
 
         const mailOptions = {
-    from: `"Caffetest" <${process.env.EMAIL_USER}>`,
+    from: `"Curacore" <${process.env.EMAIL_USER}>`,
     to: email,
     subject: 'Your OTP for Registration',
     text: `Your OTP is: ${otp}`,
@@ -55,7 +55,7 @@ const sendOTPEmail = async (email, otp) => {
             </p>
             
             <hr style="border: none; border-top: 1px solid #ddd; margin: 25px 0;">
-            <p style="font-size: 12px; text-align: center; color: #777;">© ${new Date().getFullYear()} Caffetest. All rights reserved.</p>
+            <p style="font-size: 12px; text-align: center; color: #777;">© ${new Date().getFullYear()} Curacore. All rights reserved.</p>
         </div>
     </div>
     `
