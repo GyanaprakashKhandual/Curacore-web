@@ -11,5 +11,24 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "name": "curacore-web",
+  "version": "1.0.0",
+  "description": "![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)   ![Express.js](https://img.shields.io/badge/Express.js-Backend-blue?logo=express)   ![MongoDB](https://img.shields.io/badge/MongoDB-Database-darkgreen?logo=mongodb)   ![NullMiller](https://img.shields.io/badge/NullMiller-Integration-orange)   ![License](https://img.shields.io/badge/License-MIT-yellow)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GyanaprakashKhandual/Curacore-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GyanaprakashKhandual/Curacore-web/issues"
+  },
+  "homepage": "https://github.com/GyanaprakashKhandual/Curacore-web#readme"
 }
